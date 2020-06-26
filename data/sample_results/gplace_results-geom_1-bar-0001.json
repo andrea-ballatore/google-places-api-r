@@ -1,0 +1,851 @@
+{
+  "html_attributions": [],
+  "next_page_token": "CqQCGAEAALuI4DGzKemUAlXWQlKyeooTc3o_PBIqW9OQB8f0xoRV6_DX1Gr9ry3FmQ2vukBDUgnv91pylvmL6d15vlxphEOItCd5r4FURPXPqwmg_AgZYFeg5zhBms6II6xTy4YM75K-_AjGBh8U0gOPYooy2VcjmK5Xpq2R7LPBvyB7wXhW54Tvp2PfGeubnsNmJ9pfv88ZhzoCW61zNXsBipZZd9eD_e0_KtrcC-Bm9wHr863G0Ld1IfyWWORmYuNpJHGtwvBzWzrDGXcrjwXeV7wbRnlL7Ed327QXSFVv-0vQkwjtKHbqpAOEdcLColtU-HeBwbezKR06EHnEXJcVHXZhPEpnI32sKPisc6RvdxUN3bkeVbICmmGXt7E-FpOEmtUO8RIQEzPWl13uFs6sex1ge4veoRoUckXSHFLwEObc4c9hojqdElddHxM",
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.4879,
+          "lng": 5.0328
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.4893,
+            "lng": 5.0342
+          },
+          "southwest": {
+            "lat": 52.4866,
+            "lng": 5.0315
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+      "id": "a898ac830a4afacb94b1ed2287318277eda65378",
+      "name": "Van der Valk Hotel Volendam",
+      "photos": [
+        {
+          "height": 667,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/106657397238398817378\">Van der Valk Hotel Volendam<\/a>",
+          "photo_reference": "CmRaAAAA6OLgKjgmaMC0USBidbvAw11fmgIqYiq_DCCe9O04ErJig6WeUONplaL-lM2T3hxW2mDKY0bDuxHjYc3useFLMe6TFI-sCrfXXCStTZ_zURpWOvWODPxhFpL_GNbCsE77EhBep29Z3l384Dyxu_b6hrV3GhQo4q3JAmI1vxjCVeomTEDS7ZVotg",
+          "width": 1000
+        }
+      ],
+      "place_id": "ChIJCc6ykEIExkcRiLvF4vtApiQ",
+      "plus_code": {
+        "compound_code": "F2QM+54 Katwoude, Netherlands",
+        "global_code": "9F47F2QM+54"
+      },
+      "rating": 4.3,
+      "reference": "ChIJCc6ykEIExkcRiLvF4vtApiQ",
+      "scope": "GOOGLE",
+      "types": ["lodging", "bar", "restaurant", "food", "point_of_interest", "establishment"],
+      "user_ratings_total": 2082,
+      "vicinity": "Wagenweg 1, Katwoude",
+      "opening_hours": {}
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.4955,
+          "lng": 4.9572
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.4968,
+            "lng": 4.9585
+          },
+          "southwest": {
+            "lat": 52.4941,
+            "lng": 4.9558
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "b7841fc30617606949a53dd81d1ad48deaf2d1fd",
+      "name": "Willeke permanente make-up specialist",
+      "photos": [
+        {
+          "height": 669,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/101232933949441883999\">Willeke permanente make-up specialist<\/a>",
+          "photo_reference": "CmRaAAAAcOcqaAxO4eGQWGP4hA4Z2HvyFPdDOVcpcM0iLzoBNhpPfh5XhATHyLbsl9_7wu673JopbsTSl_FIk7QS8bicgYKrbxQNq2X8HQENdPlOg5NUs750IegPkkIcpo0sqXVXEhBHyuKKKw7kEuIWDRszuJoyGhSe7Ugxq5gCFeG6W7MXvf9wX8V_fw",
+          "width": 1774
+        }
+      ],
+      "place_id": "ChIJoS9bUz0HxkcRtqaAviy9qUs",
+      "plus_code": {
+        "compound_code": "FXW4+5V Purmerend, Netherlands",
+        "global_code": "9F46FXW4+5V"
+      },
+      "rating": 4.9,
+      "reference": "ChIJoS9bUz0HxkcRtqaAviy9qUs",
+      "scope": "GOOGLE",
+      "types": ["beauty_salon", "bar", "point_of_interest", "establishment"],
+      "user_ratings_total": 21,
+      "vicinity": "Distelstraat 21, Purmerend",
+      "opening_hours": {
+        "open_now": false
+      }
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5057,
+          "lng": 4.9844
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.507,
+            "lng": 4.9857
+          },
+          "southwest": {
+            "lat": 52.5043,
+            "lng": 4.983
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "8d2347cbeafe0910ff95e1e353e47a4668c31c2a",
+      "name": "Grillroom-Pizzeria-Shoarma \"Max\"",
+      "photos": [
+        {
+          "height": 2988,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/100653081868288688217\">Ronald Vanderkuyl<\/a>",
+          "photo_reference": "CmRaAAAAvliiu-KDXB6StGfP9B66jqkCeyCGC_memSavrkf_hHcNEOHfaMuok5RICEQcMumnFHCJnjuOZUy0hoBbpSMOejkPY4mOCBrkKCXws3BNpX5fbDjNAWynNydqxuig01iGEhColQuYMj7dW_gieWTNs0fSGhS2UDxCGM0DZ5qFWGp7O7HmuywfKA",
+          "width": 5312
+        }
+      ],
+      "place_id": "ChIJyzsuwLEGxkcR_dISuPEVSVE",
+      "plus_code": {
+        "compound_code": "GX4M+7Q Purmerend, Netherlands",
+        "global_code": "9F46GX4M+7Q"
+      },
+      "rating": 4.1,
+      "reference": "ChIJyzsuwLEGxkcR_dISuPEVSVE",
+      "scope": "GOOGLE",
+      "types": ["restaurant", "meal_delivery", "bar", "food", "point_of_interest", "establishment"],
+      "user_ratings_total": 41,
+      "vicinity": "Gildeplein 94, Purmerend",
+      "opening_hours": {
+        "open_now": true
+      },
+      "price_level": 2
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5101,
+          "lng": 4.9591
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5115,
+            "lng": 4.9604
+          },
+          "southwest": {
+            "lat": 52.5088,
+            "lng": 4.9577
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "3b3b180aecb6ac4fe1498b0c438f94376e1ac7a2",
+      "name": "Brasserie Moccano",
+      "photos": [
+        {
+          "height": 1080,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/100658651950089697160\">Henk Jonkman<\/a>",
+          "photo_reference": "CmRaAAAAqG6flGP1i5ffK38nbOCMVhFh-VarArNjZWVoOZ_LxN4hIGNyGDv_yBXT5nWysGos31F_YW6bcLqH2TCvZgnM4qLvYBZn0Yv_fK403tzTjjdryXyIoTI2njX8kpD8oL3zEhDtWE4XaEGSs6KORZInK8JPGhTi-xAik5TPCna9BogXYGNbrQnpcg",
+          "width": 1920
+        }
+      ],
+      "place_id": "ChIJI2pucNIGxkcRMziieGpWV2A",
+      "plus_code": {
+        "compound_code": "GX65+2M Purmerend, Netherlands",
+        "global_code": "9F46GX65+2M"
+      },
+      "rating": 4.2,
+      "reference": "ChIJI2pucNIGxkcRMziieGpWV2A",
+      "scope": "GOOGLE",
+      "types": ["restaurant", "cafe", "bar", "food", "point_of_interest", "store", "establishment"],
+      "user_ratings_total": 39,
+      "vicinity": "Burgemeester D. Kooimanweg 16 F, Purmerend",
+      "opening_hours": {
+        "open_now": false
+      }
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5088,
+          "lng": 4.9498
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5101,
+            "lng": 4.9511
+          },
+          "southwest": {
+            "lat": 52.5074,
+            "lng": 4.9484
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "a76c008d6e3e31b1e5fba75c6ebf580fe84d3077",
+      "name": "Cafe Rooie Sien",
+      "photos": [
+        {
+          "height": 720,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/108898407526641374242\">Cafe Rooie Sien<\/a>",
+          "photo_reference": "CmRaAAAAiM66wmf3sufESIBEMpTszdntlD5q-L2dStsiSI8mufQAEeG8NTKtF_JXdaWRgRYlaJw2349tQBT-Olix2YSp-9-8MGThg5GUckuP8l8AEq-RnsKIdEsVIZRG34QZeVshEhDMjdWbxy4boOB8Ukql7ciWGhTDKBpvcd9PikZwDRmg5raaI5M7iA",
+          "width": 960
+        }
+      ],
+      "place_id": "ChIJFxEk1dUGxkcR5AeDsKDC-Uw",
+      "plus_code": {
+        "compound_code": "GW5X+GW Purmerend, Netherlands",
+        "global_code": "9F46GW5X+GW"
+      },
+      "rating": 3.6,
+      "reference": "ChIJFxEk1dUGxkcR5AeDsKDC-Uw",
+      "scope": "GOOGLE",
+      "types": ["bar", "point_of_interest", "establishment"],
+      "user_ratings_total": 38,
+      "vicinity": "Koemarkt 19, Purmerend",
+      "opening_hours": {
+        "open_now": true
+      },
+      "price_level": 2
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5084,
+          "lng": 4.9488
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5098,
+            "lng": 4.9501
+          },
+          "southwest": {
+            "lat": 52.5071,
+            "lng": 4.9474
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "ca18abfa99d111fecb750c69d42c5ad06aea7b0a",
+      "name": "Covent Garden Gastro Pub",
+      "photos": [
+        {
+          "height": 3456,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/100450460194575040292\">Diana van Dijk<\/a>",
+          "photo_reference": "CmRaAAAAjMp52N_dwe2eA9aZTNaqhRiMvWLo6eLx9hmeAD3-g8vDnVd-n7LPciA3V5EpvQQFim7resVFT6lduJH3pt3R9kFotuzTd964xAT5Dz2dAlttexChklusDOZK0wSBSe6oEhCyGrv2lX-qxWoOEcqxjk97GhTy1NGdd6OUsa1EhJtgA8gFPDNzIQ",
+          "width": 5184
+        }
+      ],
+      "place_id": "ChIJ46oEd9YGxkcReB7rZCA9DBs",
+      "plus_code": {
+        "compound_code": "GW5X+9G Purmerend, Netherlands",
+        "global_code": "9F46GW5X+9G"
+      },
+      "rating": 4.7,
+      "reference": "ChIJ46oEd9YGxkcReB7rZCA9DBs",
+      "scope": "GOOGLE",
+      "types": ["bar", "point_of_interest", "establishment"],
+      "user_ratings_total": 9,
+      "vicinity": "Koemarkt 20, Purmerend",
+      "opening_hours": {
+        "open_now": true
+      }
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5085,
+          "lng": 4.9487
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5098,
+            "lng": 4.9501
+          },
+          "southwest": {
+            "lat": 52.5071,
+            "lng": 4.9474
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "b7124d3a86e156ef46869abdc80008088f9032b9",
+      "name": "Cafe Tante Fietje",
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/107514681006329734031\">Cafe Tante Fietje<\/a>",
+          "photo_reference": "CmRaAAAA4WkLvuobVQXr1M_vpGYZCxANLLW8OIT55DNlCQ1TKXQ7-vh7fACLGzfAsY_hBj0sa82jDDyr94hVw8j5hZUlaPy-Hv2m_gwYxpqNbqdrHqVLf1JcJnzcdTzf_Nm3HpJcEhAsdcHM45gIzEtuJRrFhyI6GhTV0Vd4iDEOO7GqgE-I8iILkntR-w",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJRwv8dtYGxkcRAjbHlPCihOs",
+      "plus_code": {
+        "compound_code": "GW5X+9F Purmerend, Netherlands",
+        "global_code": "9F46GW5X+9F"
+      },
+      "rating": 4.1,
+      "reference": "ChIJRwv8dtYGxkcRAjbHlPCihOs",
+      "scope": "GOOGLE",
+      "types": ["bar", "point_of_interest", "establishment"],
+      "user_ratings_total": 16,
+      "vicinity": "Koemarkt 18, Purmerend",
+      "opening_hours": {
+        "open_now": true
+      }
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5041,
+          "lng": 4.9457
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5054,
+            "lng": 4.9468
+          },
+          "southwest": {
+            "lat": 52.5027,
+            "lng": 4.9441
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "f2b806ff71731c78baa79a78bf7423266e0675a9",
+      "name": "Berging Brouwerij",
+      "photos": {},
+      "place_id": "ChIJI2lQ_dcGxkcR5RTXcNAp8mU",
+      "plus_code": {
+        "compound_code": "GW3W+J7 Purmerend, Netherlands",
+        "global_code": "9F46GW3W+J7"
+      },
+      "rating": 4.8,
+      "reference": "ChIJI2lQ_dcGxkcR5RTXcNAp8mU",
+      "scope": "GOOGLE",
+      "types": ["bar", "point_of_interest", "establishment"],
+      "user_ratings_total": 17,
+      "vicinity": "Jaagweg 6, Purmerend",
+      "opening_hours": {}
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5091,
+          "lng": 4.9474
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5102,
+            "lng": 4.9494
+          },
+          "southwest": {
+            "lat": 52.5075,
+            "lng": 4.9467
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "c8b8156cbbb25627f93a8464871f476d0938475e",
+      "name": "Brasserie Moccano",
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/107180193844563258167\">Liam Dubbeling<\/a>",
+          "photo_reference": "CmRaAAAARQNeN9RGP7LumWpv23G9tf-JH6qfCSDEKVZ4soV2XifqSPVq4aTL_jZ6yUybtOEadTQwtJElPiOUaDf2CdpYRAUK1HkTBKwJExlowsNBaOhMHMUZkpddee65x-L5E502EhA7PQKxUKfWOQIUkgQYIT1eGhS2FSQgJvNzuoJkDVrffNTwrG9kyw",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJC7qv5NUGxkcRSZLAU7iMwoU",
+      "plus_code": {
+        "compound_code": "GW5W+JX Purmerend, Netherlands",
+        "global_code": "9F46GW5W+JX"
+      },
+      "rating": 4.2,
+      "reference": "ChIJC7qv5NUGxkcRSZLAU7iMwoU",
+      "scope": "GOOGLE",
+      "types": ["cafe", "bar", "restaurant", "food", "point_of_interest", "store", "establishment"],
+      "user_ratings_total": 148,
+      "vicinity": "Willem Eggertstraat 133, Purmerend",
+      "opening_hours": {
+        "open_now": false
+      }
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5124,
+          "lng": 4.9936
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5137,
+            "lng": 4.9949
+          },
+          "southwest": {
+            "lat": 52.511,
+            "lng": 4.9922
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "605e254fc9a35a166742b50ae787c295bbad2418",
+      "name": "Lasertown",
+      "photos": [
+        {
+          "height": 960,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/113342658353118596730\">Brendan Berendse<\/a>",
+          "photo_reference": "CmRaAAAAc8EdIwXws4rO5L1BE7fAF-tenkyQXpbQRYX1jMxtaA_nwKN2zBwTOYNiNawCywbiYxBYp_FVquu_v8dWY6iLk1xucv6rnm0VYqtcR2UEf8zIoq9c6DjR_C0LNwVQJiczEhCCGRPBMcNzxv8DyBxNeAJxGhSjDPvvFKPxHkRifsVrm61-Ov0aCA",
+          "width": 543
+        }
+      ],
+      "place_id": "ChIJN77grKwGxkcR2DPtzi6vUUw",
+      "plus_code": {
+        "compound_code": "GX6V+WF Purmerend, Netherlands",
+        "global_code": "9F46GX6V+WF"
+      },
+      "rating": 4.5,
+      "reference": "ChIJN77grKwGxkcR2DPtzi6vUUw",
+      "scope": "GOOGLE",
+      "types": ["bar", "point_of_interest", "establishment"],
+      "user_ratings_total": 2,
+      "vicinity": "Grotenhuysweg 102, Purmerend",
+      "opening_hours": {
+        "open_now": false
+      }
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5103,
+          "lng": 4.9444
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5117,
+            "lng": 4.9458
+          },
+          "southwest": {
+            "lat": 52.509,
+            "lng": 4.9431
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "1c557020db28781380266230af0cc3f01e127150",
+      "name": "Cafe 't Paradijs",
+      "photos": [
+        {
+          "height": 3265,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/100450460194575040292\">Diana van Dijk<\/a>",
+          "photo_reference": "CmRaAAAAlUcSQ5RZ5n3mgnhDQxBvg3yIrOSd0HtFS523Gaar2tq9TTw1-kVnGr2QUASReK2UHmc-i0KZykOEnMsJeKaU2wuHNJLXI_xt9qcFDpT6o782H50fN7L3fAXplQTPzrZWEhC5qQ_eAzTF21-AK3vHeo0CGhRhRtJe9_OvwWM_IS0WvbcW6uTaJw",
+          "width": 4898
+        }
+      ],
+      "place_id": "ChIJD6s1RioHxkcRto7q8Vgdaok",
+      "plus_code": {
+        "compound_code": "GW6V+4P Purmerend, Netherlands",
+        "global_code": "9F46GW6V+4P"
+      },
+      "rating": 4.3,
+      "reference": "ChIJD6s1RioHxkcRto7q8Vgdaok",
+      "scope": "GOOGLE",
+      "types": ["restaurant", "night_club", "bar", "food", "point_of_interest", "establishment"],
+      "user_ratings_total": 15,
+      "vicinity": "Neckerdijk 5, Purmerend",
+      "opening_hours": {
+        "open_now": true
+      }
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5083,
+          "lng": 4.9508
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5097,
+            "lng": 4.9521
+          },
+          "southwest": {
+            "lat": 52.507,
+            "lng": 4.9495
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "635504e054bcc04ab5aa9206199eb4e84382b75f",
+      "name": "Estados Cafè",
+      "photos": {},
+      "place_id": "ChIJp2CInNYGxkcRHhDlm2_O0Ug",
+      "plus_code": {
+        "compound_code": "GX52+88 Purmerend, Netherlands",
+        "global_code": "9F46GX52+88"
+      },
+      "reference": "ChIJp2CInNYGxkcRHhDlm2_O0Ug",
+      "scope": "GOOGLE",
+      "types": ["bar", "point_of_interest", "establishment"],
+      "vicinity": "Koemarkt 58, Purmerend",
+      "opening_hours": {}
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5431,
+          "lng": 4.9781
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5444,
+            "lng": 4.9795
+          },
+          "southwest": {
+            "lat": 52.5417,
+            "lng": 4.9768
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "3770e726ea65a5f800fc4b390f2350a03f73ebe3",
+      "name": "Dorpshuis de Zwaan",
+      "photos": [
+        {
+          "height": 1877,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/106388442278475788723\">Karin de Hooge<\/a>",
+          "photo_reference": "CmRaAAAA1Duh172aZu_DuAU91JHogdxUoKshgu2JxAdTaX96HODHWVOqXBFnY8molfHqhKpSaAG0BebPIE61mxnjtQdvw-IY83I-JhyZ7V2_EW4ZqB9KuJRQFJmAFPjc9rlZJ9cbEhAJ9af22CQUYgEhW4c9ruMIGhSd_dhMGxFP-oBfBG0PfOh5sj5RZQ",
+          "width": 3383
+        }
+      ],
+      "place_id": "ChIJpcJKthIBxkcR5gyx4cOb_8Q",
+      "plus_code": {
+        "compound_code": "GXVH+66 Hobrede, Netherlands",
+        "global_code": "9F46GXVH+66"
+      },
+      "rating": 4.6,
+      "reference": "ChIJpcJKthIBxkcR5gyx4cOb_8Q",
+      "scope": "GOOGLE",
+      "types": ["bar", "point_of_interest", "establishment"],
+      "user_ratings_total": 16,
+      "vicinity": "Hobrede 57, Hobrede",
+      "opening_hours": {}
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5102,
+          "lng": 4.9465
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.512,
+            "lng": 4.9481
+          },
+          "southwest": {
+            "lat": 52.5093,
+            "lng": 4.9454
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "51de19a3c2a775c408cb3bf1c2fc8a52454a03f3",
+      "name": "Restaurant Mykonos | Griekse Specialiteiten",
+      "photos": [
+        {
+          "height": 4160,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/106050466665423467584\">Restaurant Mykonos | Griekse Specialiteiten<\/a>",
+          "photo_reference": "CmRaAAAA--YesJsrrISXh09vJYjYJ6pPNaPzwLT10VEx79oguxNs6Q4mdKeZrDYPXkDRcTBENJMHMh4aYNCqu64xYUysBKIOKije-rJ-Mm3jq2xn0mqQIDAmlsw0fwduXBdEtBXxEhBqcnIpsA4632uqkjW-O8I5GhTm2Y2Y53fsWgZGNJYNHxd9Bkot7A",
+          "width": 6240
+        }
+      ],
+      "place_id": "ChIJeYlnayoHxkcRnwzG0-KKnyg",
+      "plus_code": {
+        "compound_code": "GW6W+3H Purmerend, Netherlands",
+        "global_code": "9F46GW6W+3H"
+      },
+      "rating": 4.3,
+      "reference": "ChIJeYlnayoHxkcRnwzG0-KKnyg",
+      "scope": "GOOGLE",
+      "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      "user_ratings_total": 220,
+      "vicinity": "Peperstraat 29, Purmerend",
+      "opening_hours": {
+        "open_now": true
+      },
+      "price_level": 2
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5084,
+          "lng": 4.9489
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5098,
+            "lng": 4.9503
+          },
+          "southwest": {
+            "lat": 52.5071,
+            "lng": 4.9476
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id": "6278d9c9cbf40cf3e92ae75c9784d6c2260920b1",
+      "name": "De Bonte Koe",
+      "photos": [
+        {
+          "height": 3265,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/100450460194575040292\">Diana van Dijk<\/a>",
+          "photo_reference": "CmRaAAAAdpTyt6gPeCpjKNWTJhundKECvYIuSlBslafqCr8DKU2RFAhXeoD41yN9szoXoC7Uut-2xcEfp-U0WPmCAL_U9sMWURTRSvzYuhgzMoNte8paZ_L3PnPmjlX9dlEjmA8cEhD0CPV_G67dGuOo7VDnMey9GhRO3z4CFCJMEUBlQSDaUfL2NgTHVw",
+          "width": 4898
+        }
+      ],
+      "place_id": "ChIJ27fhedYGxkcR4QFJb5y2MoY",
+      "plus_code": {
+        "compound_code": "GW5X+9H Purmerend, Netherlands",
+        "global_code": "9F46GW5X+9H"
+      },
+      "rating": 4.6,
+      "reference": "ChIJ27fhedYGxkcR4QFJb5y2MoY",
+      "scope": "GOOGLE",
+      "types": ["cafe", "bar", "food", "point_of_interest", "establishment"],
+      "user_ratings_total": 315,
+      "vicinity": "Koemarkt 24, Purmerend",
+      "opening_hours": {
+        "open_now": true
+      },
+      "price_level": 2
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5087,
+          "lng": 4.95
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.51,
+            "lng": 4.9513
+          },
+          "southwest": {
+            "lat": 52.5073,
+            "lng": 4.9486
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "9ca60a2a29732798b6d1fd193395f5de0bca0c6b",
+      "name": "BRASA bar & kitchen",
+      "photos": [
+        {
+          "height": 480,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/104368163409367394551\">BRASA bar &amp; kitchen<\/a>",
+          "photo_reference": "CmRaAAAA_4UC7wxfnJp5LpwjazPccOa18PJIX3jZX_XlItsw1wRSsMCdk9RxsjzjoyX-Ul4FSuekz72-NZI3tb_0KRmBk_5uCu8TbiIx6kLBlQHdZD9MkYcCHnKmeCqJNUvxl4bVEhAH64ZQ6b29DQxv654ikEgyGhT7U3oUsUKSlqN-UBNmheaG6XY1Lw",
+          "width": 640
+        }
+      ],
+      "place_id": "ChIJLTtjKtQGxkcRijuNcpb7V7U",
+      "plus_code": {
+        "compound_code": "GX52+F2 Purmerend, Netherlands",
+        "global_code": "9F46GX52+F2"
+      },
+      "rating": 4.2,
+      "reference": "ChIJLTtjKtQGxkcRijuNcpb7V7U",
+      "scope": "GOOGLE",
+      "types": ["restaurant", "bar", "food", "point_of_interest", "establishment"],
+      "user_ratings_total": 708,
+      "vicinity": "Koemarkt 25- 27, Purmerend",
+      "opening_hours": {
+        "open_now": true
+      },
+      "price_level": 2
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5088,
+          "lng": 4.9496
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5101,
+            "lng": 4.9509
+          },
+          "southwest": {
+            "lat": 52.5074,
+            "lng": 4.9482
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "ee9661c3d3f7eee4903894ca365b42f9767435a0",
+      "name": "Café Aad de Wolf",
+      "photos": [
+        {
+          "height": 3265,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/100450460194575040292\">Diana van Dijk<\/a>",
+          "photo_reference": "CmRaAAAAUGAqowI8Jxiu4KTDOijHXy44liVIW_VprkmTW91nRwmjWy5z7IBuS_YoHgwr3xOQEFd18AAvtzYRH1tH2fEGZjYNGJaIM734ZRGkm9mMI3vjsiMlg-E_BdC0yU8l9cK8EhCZIgfLFzYOrG7AHUi1de-pGhSZ3205RczQ0986wO3QYS6bHUXawA",
+          "width": 4898
+        }
+      ],
+      "place_id": "ChIJUZRT1NUGxkcRl-YjpNxfkWY",
+      "plus_code": {
+        "compound_code": "GW5X+GR Purmerend, Netherlands",
+        "global_code": "9F46GW5X+GR"
+      },
+      "rating": 4.3,
+      "reference": "ChIJUZRT1NUGxkcRl-YjpNxfkWY",
+      "scope": "GOOGLE",
+      "types": ["night_club", "bar", "restaurant", "food", "point_of_interest", "establishment"],
+      "user_ratings_total": 251,
+      "vicinity": "Koemarkt 15, Purmerend",
+      "opening_hours": {
+        "open_now": true
+      },
+      "price_level": 2
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5132,
+          "lng": 4.9596
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5145,
+            "lng": 4.9611
+          },
+          "southwest": {
+            "lat": 52.5118,
+            "lng": 4.9584
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+      "id": "3dc1eefb22390b2db1e41f3429134199a1f367ce",
+      "name": "De Kluif",
+      "photos": [
+        {
+          "height": 3120,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/105729812472179297865\">giovanni van gammeren<\/a>",
+          "photo_reference": "CmRaAAAAoY6rA9AbO5qqaUfuvTFpZ07JSkZ2HdS04GaqnWneXBu2VCbvqqeMTGx6eRbw2hctfOXUri4K3dIqscIsnXxo7b85836N1UkbQj_gbwb4NOZmHQhJ4AYKLZjraKboifXaEhBlF2JVSXu4QZ6LJchhjMbBGhQYrIarqfkWWWlBB_h1PXv1ePPV8g",
+          "width": 4160
+        }
+      ],
+      "place_id": "ChIJvYDHhykHxkcRPAapr9QHCrc",
+      "plus_code": {
+        "compound_code": "GX75+7R Purmerend, Netherlands",
+        "global_code": "9F46GX75+7R"
+      },
+      "rating": 4.4,
+      "reference": "ChIJvYDHhykHxkcRPAapr9QHCrc",
+      "scope": "GOOGLE",
+      "types": ["cafe", "bar", "food", "point_of_interest", "establishment"],
+      "user_ratings_total": 92,
+      "vicinity": "Wormerplein 38, Purmerend",
+      "opening_hours": {
+        "open_now": true
+      },
+      "price_level": 2
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5081,
+          "lng": 4.9479
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5095,
+            "lng": 4.9493
+          },
+          "southwest": {
+            "lat": 52.5068,
+            "lng": 4.9466
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+      "id": "974f5801112b5ca0db5f7e3c37ba9758a2f9f47c",
+      "name": "Warrie Knarrie",
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": "<a href=\"https://maps.google.com/maps/contrib/102695661085981823055\">Marc Wijchers<\/a>",
+          "photo_reference": "CmRaAAAAAlduQjvf7CKziWJlx8rLCIaxWUged6pdggzHXoj8lRng9ZDA_adBIEDV0A9-aM10pAeCILAfBkPO7T_DtbpjmJKI5YuCJxVAtcrAPzXp1qa-0s5CXNqVoqX-teViFvpOEhCbfOLQWCYCOcTIvocROXgIGhR0Yn6B6MXkfZuTfTt_YzmwHAl1bg",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJcciW5NUGxkcRtNSYcyYBHU0",
+      "plus_code": {
+        "compound_code": "GW5X+65 Purmerend, Netherlands",
+        "global_code": "9F46GW5X+65"
+      },
+      "rating": 4.2,
+      "reference": "ChIJcciW5NUGxkcRtNSYcyYBHU0",
+      "scope": "GOOGLE",
+      "types": ["restaurant", "night_club", "bar", "food", "point_of_interest", "establishment"],
+      "user_ratings_total": 325,
+      "vicinity": "Koestraat 12, Purmerend",
+      "opening_hours": {
+        "open_now": false
+      },
+      "price_level": 2
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 52.5148,
+          "lng": 4.9648
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 52.5161,
+            "lng": 4.9662
+          },
+          "southwest": {
+            "lat": 52.5134,
+            "lng": 4.9635
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id": "c76dfc659a1c5cb4188b7e7c46c34b2bc860a410",
+      "name": "Disa Food & Drinks",
+      "photos": {},
+      "place_id": "ChIJlyDCGDMBxkcR664K9_py1BY",
+      "plus_code": {
+        "compound_code": "GX77+WW Purmerend, Netherlands",
+        "global_code": "9F46GX77+WW"
+      },
+      "reference": "ChIJlyDCGDMBxkcR664K9_py1BY",
+      "scope": "GOOGLE",
+      "types": ["bar", "point_of_interest", "establishment"],
+      "vicinity": "Doctor J.M. Den Uyllaan 9, Purmerend",
+      "opening_hours": {}
+    }
+  ],
+  "status": "OK",
+  "input": {
+    "query_url": "https://maps.googleapis.com/maps/api/place/nearbysearch/json?fields=place_id,name,price_level,photos,formatted_address,opening_hours,rating,types,geometry,permanently_closed&location=52.5032,4.97152&radius=4766&type=bar&key=AIzaSyCPRmFQrU3qTDmjfvNT-Ol2BkJCVSYI-aA",
+    "geom_i": 1,
+    "radius_m": 4766,
+    "location_lat": 52.5032,
+    "location_lon": 4.9715,
+    "type": "bar",
+    "timestamp": "2020-04-16 18:09:02"
+  },
+  "result_page": 1,
+  "n_results": 20
+}

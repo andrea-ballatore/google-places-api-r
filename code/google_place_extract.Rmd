@@ -1,0 +1,137 @@
+---
+title: "Google API"
+output:
+  html_document:
+    self_contained: no
+  pdf_document: default
+---
+
+<style>
+pre:not([class]) {
+    color: white;
+    background-color: #272822;
+}
+</style>
+
+# Setup
+
+```{r setup}
+source("setup.R")
+
+```
+
+# Extract POIs from Json
+
+
+```{r include=F}
+data_dir = "../tmp/"
+
+all_res = data.frame()
+
+pcodes = unique(unlist(lapply( str_split(list.files(data_dir, pattern = "*.json", full.names = T),"-"), function(x) x[2][1])))
+print(length(pcodes))
+# get 
+ptn = "*.json"
+#ptn = "*E15-restaurant-subquery4-subquery2-subquery2-0001.json"
+
+files = list.files(data_dir, pattern = ptn, full.names = T)
+print(paste("files",length(files)))
+i = 0
+for (fn in sort(files)){
+  
+  print(paste(i, "of", length(files), fn))
+  j = fromJSON(fn)
+  i = i + 1
+  
+  if (j[["status"]]=="ZERO_RESULTS") next()
+  
+  stopifnot(j[["status"]]=="OK")
+  j$results$types = lapply(j$results$types, FUN = function(x){paste0(unlist(x),collapse = ', ')})
+  res = flatten(j[['results']], recursive = T)
+  res$query_id = UUIDgenerate()
+  res$input_query_url = j$input$query_url
+  res$input_type = j$input$type
+  res$input_result_page = j$result_page
+  res$input_postcode = j$input$postcode
+  res$input_timestamp = j$input$timestamp
+  
+  res$input_location_lat = j$input$location_lat
+  res$input_location_lon = j$input$location_lon
+  res$input_radius_m = j$input$radius
+  res$input_file = fn
+  
+  # generate unique row names
+  row.names(res) = UUIDgenerate(n=nrow(res))
+  
+  all_res = smartbind(all_res, res)
+  print(paste('  ', nrow(res), nrow(all_res)))
+}
+
+for (col in c("query_id", "input_type", "input_file", "input_query_url")){
+  all_res[, col] = as.factor(all_res[, col])
+}
+
+# mark duplicates in table
+all_res$duplicated_place = duplicated(all_res$place_id)
+
+print(summary(all_res))
+print(nrow(all_res))
+
+saveRDS(all_res, "../tmp/google_places_df.rds")
+write_csv(all_res, "../tmp/google_places_df.csv", na = '')
+
+obs_sdf = SpatialPointsDataFrame( all_res[,c('geometry.location.lng','geometry.location.lat')], all_res, proj4string = ll_crs)
+
+
+write_geopackage(obs_sdf, "../tmp/google_places_df.gpkg", "google_places_api_res")
+saveRDS(obs_sdf, "../tmp/google_places_sdf.rds")
+
+rm(obs_sdf)
+```
+
+# Process POIs for dataset
+
+```{r}
+poi_sdf = readRDS("../tmp/google_places_sdf.rds")
+nrow(poi_sdf)
+summary(poi_sdf)
+summary(poi_sdf$duplicated_place)
+
+poi_nodup_sdf = subset(poi_sdf, poi_sdf$duplicated_place == F)
+nrow(poi_nodup_sdf)
+length(unique(poi_nodup_sdf$place_id))
+
+head(poi_nodup_sdf$types)
+
+# find geometries
+input_sdf <- load_input_areas()
+over_units = sp::over(poi_nodup_sdf, spTransform(input_sdf, proj4string(poi_nodup_sdf)))
+over_units = over_units[,c("GM_CODE","GM_NAAM")]
+poi_nodup_sdf = spCbind(poi_nodup_sdf, over_units)
+rm(over_units)
+
+# remove POIs outside of the area
+poi_nodup_sdf = subset(poi_nodup_sdf, poi_nodup_sdf$GM_CODE == 'GM0439')
+nrow(poi_nodup_sdf)
+summary(poi_nodup_sdf$GM_CODE)
+
+# extract tags to new data frame
+s <- strsplit(poi_nodup_sdf$types, split = ",")
+poi_types_df = data.frame(place_id = rep(poi_nodup_sdf$place_id, sapply(s, length)), type = unlist(s))
+poi_types_df$type = as.factor(trimws(poi_types_df$type))
+
+poi_nodup_sdf$type1 = as.factor(sapply(s, function(x) x[[1]]))
+poi_nodup_sdf$type2 = as.factor(sapply(s, function(x) x[[2]]))
+poi_nodup_sdf$type3 = as.factor(sapply(s, function(x) x[[3]]))
+
+rm(s)
+
+fn = "../tmp/google_places_pois_purmerend2020"
+
+saveRDS(poi_nodup_sdf, paste0(fn, "_sdf.rds"))
+saveRDS(poi_types_df, paste0(fn, "_types_df.rds"))
+write_csv(poi_types_df, paste0(fn, "_types_df.csv"))
+
+write_geopackage(poi_nodup_sdf, paste0(fn, ".gpkg"), "google_places_pois")
+rm(poi_nodup_sdf,poi_types_df)
+```
