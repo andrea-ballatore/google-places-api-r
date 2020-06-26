@@ -7,6 +7,8 @@ This R script takes geospatial geometries as input and retrieves all
 Google Places Points of Interest (POIs) in the area, 
 generating as many as sub-queries as needed.
 
+This script was developed for non-profit academic research in geographic data science.
+
 Input needed: 
 
 * A Google Maps API key
