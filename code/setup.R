@@ -102,7 +102,6 @@ write_geojson <- function( sdf, fn, layer_name ){
 }
 
 p_summary_list <- function( x, lab, sort_by_pc = T, top_n = NA ){
-  #cat('\n')
   t = table(x, useNA = "always")
   d = data.frame( VAL = t )
   d$PC = round((d$VAL.Freq / sum(d$VAL.Freq)*100),2)
@@ -112,9 +111,6 @@ p_summary_list <- function( x, lab, sort_by_pc = T, top_n = NA ){
   stopifnot(nrow(d)>0)
   if (!is.na(top_n))
     return(head(d,top_n))
-
   return(d)
-  #print_count_NAs(x)
-  #return(t)
 }
 
