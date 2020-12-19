@@ -11,9 +11,9 @@ This script was developed for non-profit academic research in geographic data sc
 
 Input needed: 
 
-* A Google Maps API key
-* Spatial Polygon data frame (e.g. a shapefile)
-* List of Google Place types to retrieve
+* A Google Maps API key or multiple keys in `data/input/google_api.txt`
+* Spatial Polygon data frame with geometries in `spatial_polygon_data_frame.rds`
+* List of Google Place types to retrieve in `input_place_types.csv`
 
 Output:
 
